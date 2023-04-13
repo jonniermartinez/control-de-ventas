@@ -18,8 +18,9 @@ body{
 ul{
     list-style: none;
 }
-.app{
-    margin-bottom: 15rem;
+img{
+    border-radius: 15px;
+
 }
 /* Navegacion */
 .navegacion{
@@ -54,7 +55,6 @@ ul{
  }      
 .btn-grad {
     background-image: var(--color-boton);
-    margin: 10px;
     padding: 15px 45px;
     text-align: center;
     border: none;
@@ -110,10 +110,10 @@ ul{
     margin-bottom: 50px;
 }
 .caracteristicas{
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 30rem);
+    grid-template-columns: repeat(auto-fill, 21rem);
     gap: 40px;
     justify-content: center;
     justify-items: center;
@@ -126,4 +126,34 @@ ul{
 .card_title{
     margin-top: 15px;
     text-align: center ;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.content-text{
+    width: 50%;
+    font-size: 1.7rem;
+}
+.content-text p {
+    margin-bottom: 2rem;
+
+}
+.Content{
+    display: flex;
+    align-items: center;
+}
+.Content img {
+    width: 50%;
+    margin: 2rem;
+}
+.container-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer{
+    margin-top: 6rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 18px;
 }
